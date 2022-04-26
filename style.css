@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+body {
+    text-align: center;
+}
+
 .grid {
     width: 500px;
     height: 500px;
@@ -10,5 +14,5 @@
     border: solid 2px black;
     background-color: black;
     gap: 1px;
+    
 }
-
