@@ -102,6 +102,7 @@ body {
     width: 80px;
     border: 1px solid black;
     border-radius: 8px;
+    background-color: white;
 }
 
 .size-container > button {
