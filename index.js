@@ -63,9 +63,14 @@ function clearGrid() {
 //toggles mouseover
 document.querySelector('.grid').addEventListener("click", (e) => {
     click = !click;
+    toggle = document.querySelector('.toggle');
+
     if (click) {
-        document.querySelector('.toggle').innerHTML = "Coloring: On (Click on grid to toggle on/off)"
+        toggle.innerHTML = "ON";
+        toggle.style.color = 'green';
+
     } else {
-        document.querySelector('.toggle').innerHTML = "Coloring: Off (Click on grid to toggle on/off)"
+        toggle.innerHTML = "OFF";
+        toggle.style.color = 'red';
     }
 });

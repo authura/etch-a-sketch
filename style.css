@@ -4,15 +4,35 @@
 }
 
 body {
+    margin: 24px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.grid-heading {
+    margin-bottom: 48px;
+    font-size: 48px;
+}
+
+.toggle {
+    margin-top: 64px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    color: green;
+}
+
+
 .grid {
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     display: grid;
-    border: solid 2px black;
+    border: solid 1px black;
     background-color: black;
     gap: 1px;
     
 }
+
