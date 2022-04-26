@@ -9,3 +9,7 @@
     display: grid;
     border: solid 2px black;
 }
+
+.grid-square {
+    border: .5px solid black;
+}

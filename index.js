@@ -40,7 +40,7 @@ const changeSize = (input) => {
 function colorSquare() {
     //checks if click toggle is true or false
     if (click) {
-        if(color === 'random'){
+        if(color === 'rainbow'){
             this.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
         } else {
             this.style.backgroundColor = color;
