@@ -34,5 +34,20 @@ const changeSize = (input) => {
 }
 
 function colorSquare() {
-    this.style.backgroundColor = color;
+    if(color === 'random'){
+        this.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
+    } else {
+        this.style.backgroundColor = color;
+    }
+}
+
+const changeColor = (choice) => {
+    color = choice;
+}
+
+function clearGrid() {
+    const grid = document.querySelector('#grid');
+    //remove divs when size input is changed
+    let squares = grid.querySelectorAll('div')
+    squares.forEach((div) => div.style.backgroundColor = "white");
 }
