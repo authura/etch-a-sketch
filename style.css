@@ -4,6 +4,7 @@
 }
 
 body {
+    font-family: 'Open Sans', sans-serif;
     margin: 24px;
     text-align: center;
     display: flex;
@@ -15,6 +16,10 @@ body {
 .grid-heading {
     margin-bottom: 48px;
     font-size: 48px;
+}
+
+.toggle-display {
+    margin-bottom: 12px;
 }
 
 .toggle {
