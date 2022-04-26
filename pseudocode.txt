@@ -1,3 +1,4 @@
--create html boilerplate
+-create html boilerplate *
 -use js to create 16x16 grid
 -use css hover to change color of squares when mouse hovers over
+-add clear button that erases the grid
