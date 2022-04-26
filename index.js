@@ -29,10 +29,10 @@ generateGrid(16);
 
 const changeSize = (input) => {
     if (input < 2 || input > 100) {
-        document.querySelector('.error').innerHTML = "Input must be between 2 and 100"
+        document.querySelector('.error').innerHTML = "Input must be between 2 and 100";
     } else {
         generateGrid(input);
-        document.querySelector('.error').innerHTML = ""
+        document.querySelector('.error').innerHTML = "";
     }
 }
 
