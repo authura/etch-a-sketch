@@ -1,4 +1,4 @@
-
+let color = "black";
 
 const generateGrid = (size) => {
     const grid = document.querySelector('#grid');
@@ -34,5 +34,5 @@ const changeSize = (input) => {
 }
 
 function colorSquare() {
-    this.style.backgroundColor = "black";
+    this.style.backgroundColor = color;
 }
