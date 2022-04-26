@@ -7,6 +7,8 @@ const generateGrid = (size) => {
     squares.forEach((div) => div.remove());
     grid.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
     grid.style.gridTemplateRows = `repeat(${size}, 1fr)`;
+    
+    
 
 
     //generate grid squares
@@ -17,11 +19,14 @@ const generateGrid = (size) => {
             square.style.backgroundColor = 'black';
         })
         //blue to make visible for now
-        square.style.backgroundColor = 'blue';
+        square.style.backgroundColor = 'white';
         grid.insertAdjacentElement("beforeend", square);
         
     }
 }
+
+
+
 
 generateGrid(16);
 
