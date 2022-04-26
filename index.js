@@ -1,6 +1,7 @@
 let color = "black";
 let click = true;
 
+
 const generateGrid = (size) => {
     const grid = document.querySelector('#grid');
     //remove divs when size input is changed
@@ -28,9 +29,10 @@ generateGrid(16);
 
 const changeSize = (input) => {
     if (input < 2 || input > 100) {
-        alert("NO!")
+        document.querySelector('.error').innerHTML = "Input must be between 2 and 100"
     } else {
         generateGrid(input);
+        document.querySelector('.error').innerHTML = ""
     }
 }
 
