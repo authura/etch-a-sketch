@@ -61,8 +61,8 @@ function clearGrid() {
 document.querySelector('.grid').addEventListener("click", (e) => {
     click = !click;
     if (click) {
-        document.querySelector('.toggle').innerHTML = "Color Toggle: On"
+        document.querySelector('.toggle').innerHTML = "Coloring: On (Click on grid to toggle on/off)"
     } else {
-        document.querySelector('.toggle').innerHTML = "Color Toggle: Off"
+        document.querySelector('.toggle').innerHTML = "Coloring: Off (Click on grid to toggle on/off)"
     }
 });
