@@ -15,18 +15,13 @@ const generateGrid = (size) => {
     let amount = size * size;
     for (let i = 0; i < amount; i++) {
         let square = document.createElement('div');
-        square.addEventListener("mouseover", () => {
-            square.style.backgroundColor = 'black';
-        })
+        square.addEventListener("mouseover", colorSquare)
         //blue to make visible for now
         square.style.backgroundColor = 'white';
         grid.insertAdjacentElement("beforeend", square);
         
     }
 }
-
-
-
 
 generateGrid(16);
 
@@ -36,4 +31,8 @@ const changeSize = (input) => {
     } else {
         generateGrid(input);
     }
+}
+
+function colorSquare() {
+    this.style.backgroundColor = "black";
 }
