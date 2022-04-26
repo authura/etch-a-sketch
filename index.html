@@ -21,11 +21,12 @@
             <div class="buttons">
                 <button class="clear" id="clear" onclick="clearGrid()">Clear</button>
                 <button class="erase" id="erase" onclick="changeColor('white')">Erase</button>
-                <button class="black" id="black" onclick="changeColor('black')">Black</button>
-                <button class="gray" id="gray" onclick="changeColor('gray')">Gray</button>
-                <button class="rainbow" id="rainbow" onclick="changeColor('rainbow')">Rainbow</button>
+                <button class="black" id="black" onclick="changeColor('black')"></button>
+                <button class="gray" id="gray" onclick="changeColor('gray')"></button>
+                <button class="rainbow" id="rainbow" onclick="changeColor('rainbow')"></button>
             </div>
             <div class="size-container">
+                <p class="error"></p>
                 <input type="text" 
                 class="size" 
                 id="size"
@@ -33,7 +34,7 @@
                 value="16"
                 onchange="changeSize(this.value)">
                 <button class="size" id="size-btn">Set Size</button>
-                <p class="error"></p>
+                
             </div>
             
             
