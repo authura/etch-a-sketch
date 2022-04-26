@@ -9,14 +9,13 @@ Grid size can be changed with input from anywhere between 2x2 to 100x100 grid
     grid is cleared and regenerated upon input
 
 Hovering over grid squares will turn them black
-
-
-
-Features to implement:
 clear button clears grid and resets with last inputed size
 white button acts as an eraser
 black button changes hover color to black
 random button generates random rgb for every hover
-add keypress to toggle hover coloring on/off
 
+
+
+Features to implement:
+add keypress to toggle hover coloring on/off
 add styling to make app look prettier
