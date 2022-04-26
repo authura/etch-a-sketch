@@ -21,7 +21,12 @@
                 <button class="random" id="random">Random</button>
             </div>
             <form class="size-container">
-                <input type="text" class="size" id="size">
+                <input type="text" 
+                class="size" 
+                id="size"
+                placeholder="Grid Size"
+                value="16"
+                onchange="changeSize(this.value)">
                 <button class="size" id="size-btn">Set Size</button>
             </form>
             
