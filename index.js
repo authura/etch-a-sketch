@@ -18,6 +18,7 @@ const generateGrid = (size) => {
     for (let i = 0; i < amount; i++) {
         let square = document.createElement('div');
         square.addEventListener("mouseover", colorSquare);
+        square.classList.add('grid-square');
         //blue to make visible for now
         square.style.backgroundColor = 'white';
         grid.insertAdjacentElement("beforeend", square);
