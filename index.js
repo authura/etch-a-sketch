@@ -47,7 +47,7 @@ const changeColor = (choice) => {
 
 function clearGrid() {
     const grid = document.querySelector('#grid');
-    //remove divs when size input is changed
+    //remove divs when function is called
     let squares = grid.querySelectorAll('div')
     squares.forEach((div) => div.style.backgroundColor = "white");
 }
