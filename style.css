@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     margin: 24px;
     text-align: center;
     display: flex;
@@ -27,7 +27,7 @@ body {
     margin-top: 64px;
     margin-bottom: 8px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     color: green;
 }
 
@@ -66,7 +66,7 @@ body {
 }
 
 .buttons > button:active {
-    background-color: white;
+    background-color: rgb(172, 172, 172);
   } 
 
 .buttons > .erase, .buttons > .clear {
@@ -83,6 +83,11 @@ body {
 
 .buttons > .rainbow {
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, purple, violet, pink);
+}
+
+.buttons > .rainbow:active {
+    background-image: none;
+    
 }
 
 .size-container > input, .size-container > button {
